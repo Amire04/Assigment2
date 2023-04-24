@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 1500px;
+  width: 100%;
+  background-color: black;
+}
+.frame > .grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 1300px;
+  width: 100%;
+  background-color: black;
+}
+.a {
+  background-color: rgb(243, 243, 243);
+}
+.frame {
+  border: solid;
+}
+.a > img {
+  width: 100%;
+}
+.b > img {
+  width: 100%;
+}
+
+.text {
+  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: large;
+}
+.text > .grey {
+  color: grey;
+}

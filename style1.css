@@ -1,0 +1,119 @@
+
+* {
+	margin: 0;
+	font-family: 'Montserrat';
+
+}
+
+.logo{
+	width: 70px; 
+	height: 70px;
+	margin: 0 15px 0 15px;
+}
+.imas{
+	width: 40px;
+	height: 40px;
+	margin: 0 15px 0 15px;	
+}
+.navbar{
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+}
+.nav-items{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.nav-icons{
+	justify-content: right;
+}
+
+
+.maindiv{
+	height: 700px;
+	width: 100%;
+}
+
+.sas{
+	
+	padding-left: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.sasa{
+		color: black;
+	text-decoration: none;
+
+}
+.sasa:hover{
+	border-bottom: 3px solid black;
+
+	
+}
+.wel{
+	color: white;
+	position: relative;
+	bottom: 470px;
+	margin-left: 80px;
+	font-size: 45px;
+}
+.gear{
+	color: white;
+	position: relative;
+	bottom: 440px;
+	left: 80px;
+	font-weight: 100;
+	width: 30%;
+}
+.butt{
+	display: flex;
+	flex-direction: column;
+}
+.but{
+	text-align: left;
+	font-weight: bold;
+	position: relative;
+	bottom: 400px;
+	left: 120px;
+	width: 200px;
+	height: 50px;
+	margin-top: 15px;
+}
+
+}
+#kok{
+	height: 200px;
+	color: black;
+	width: 100%;
+}
+
+.bag{
+	margin: 60px 0px 0px 150px;
+}
+.bag2{
+margin: 0px 0px 0px 150px;	
+}
+.but2{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-left:150px ;
+	width: 200px;
+	height: 50px;
+	margin-top: 15px;
+}
+.bag3{
+	margin: 50px 0px 0px 150px;
+}
+.meth{
+	margin: 20px 0px 0px 100px;
+}
+.footerr{
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
